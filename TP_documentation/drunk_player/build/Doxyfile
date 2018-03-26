@@ -1,0 +1,5 @@
+PROJECT_NAME           = drunk_player
+OUTPUT_DIRECTORY       = /home/maxime/GL/L3_GL_etudiant/TP_documentation/drunk_player/build/doc_doxygen/
+INPUT                  = /home/maxime/GL/L3_GL_etudiant/TP_documentation/drunk_player/src
+EXTRACT_ALL            = YES
+RECURSIVE              = YES

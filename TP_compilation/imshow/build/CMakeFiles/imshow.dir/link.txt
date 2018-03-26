@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -Wall -Wextra -g   CMakeFiles/imshow.dir/imshow.cpp.o  -o imshow -rdynamic 
