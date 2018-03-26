@@ -27,5 +27,4 @@ make
 ./drunk_player_gui.out ../data/
 ```
 
-![GitHub Logo](/drunk_player_gui.png)
-Format: ![Alt Text](url)
+![GitHub Logo](./drunk_player_gui.png)
