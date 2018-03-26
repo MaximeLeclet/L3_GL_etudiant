@@ -1,0 +1,32 @@
+.. drunk_player documentation master file, created by
+   sphinx-quickstart on Mon Mar 26 15:21:14 2018.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Drunk_player_cli
+================
+
+Contents:
+
+.. toctree::
+   :maxdepth: 2
+
+
+
+Description
+-----------
+
+Drunk_player_cli permet de lire les vidéos d'un dossier et de générer un fichier vidéo après avoir trop bu.
+
+Utilisation
+-----------
+
+``usage: ./drunk_player_cli.out <folder> <output file>``
+
+Exemple
+-------
+
+``$ ./drunk_player_cli.out ../data/ drunk_video.avi
+elapsed time: 5.444s``
+
+|../drunk_player_gui.png|
