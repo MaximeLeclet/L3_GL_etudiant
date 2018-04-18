@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++14 -Wall -Wextra -DNDEBUG   CMakeFiles/print_fibo.out.dir/src/Fibo.cpp.o CMakeFiles/print_fibo.out.dir/src/print_fibo.cpp.o  -o print_fibo.out -rdynamic 

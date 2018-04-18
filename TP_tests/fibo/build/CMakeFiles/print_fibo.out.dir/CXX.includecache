@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maxime/GL/L3_GL_etudiant/TP_tests/fibo/src/Fibo.cpp
+Fibo.hpp
+/home/maxime/GL/L3_GL_etudiant/TP_tests/fibo/src/Fibo.hpp
+
+/home/maxime/GL/L3_GL_etudiant/TP_tests/fibo/src/Fibo.hpp
+
+/home/maxime/GL/L3_GL_etudiant/TP_tests/fibo/src/print_fibo.cpp
+Fibo.hpp
+/home/maxime/GL/L3_GL_etudiant/TP_tests/fibo/src/Fibo.hpp
+iostream
+-
+assert.h
+-
+

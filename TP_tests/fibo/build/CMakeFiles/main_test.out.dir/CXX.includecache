@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maxime/GL/L3_GL_etudiant/TP_tests/fibo/src/Fibo.cpp
+Fibo.hpp
+/home/maxime/GL/L3_GL_etudiant/TP_tests/fibo/src/Fibo.hpp
+
+/home/maxime/GL/L3_GL_etudiant/TP_tests/fibo/src/Fibo.hpp
+
+/home/maxime/GL/L3_GL_etudiant/TP_tests/fibo/src/fibo_test.cpp
+CppUTest/CommandLineTestRunner.h
+-
+Fibo.cpp
+/home/maxime/GL/L3_GL_etudiant/TP_tests/fibo/src/Fibo.cpp
+
+/home/maxime/GL/L3_GL_etudiant/TP_tests/fibo/src/main_test.cpp
+CppUTest/CommandLineTestRunner.h
+-
+

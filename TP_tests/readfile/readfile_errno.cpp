@@ -19,16 +19,20 @@ int main(int argc, char ** argv) {
 
     cout << "Read N\n";
     uint64_t N;
-    file >> N;
+    if(!(file >> N)) exit(-2);
     // TODO
 
     cout << "Allocate V\n";
     int * V =  (int*)malloc(N*sizeof(int));
+    if(V == 0) exit(-3);
     // TODO
 
     cout << "Read V\n";
     for (unsigned i=0; i<N; i++)
-        file >> V[i];
+        if(!(file >> V[i])) {
+            free(V);
+            exit(-4);
+        }
     // TODO
 
     cout << "Print V\n";
@@ -40,4 +44,3 @@ int main(int argc, char ** argv) {
 
     return 0;
 }
-
